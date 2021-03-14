@@ -11,12 +11,12 @@ h2{
     font-size: 2vmin;
     font-style: italic;
 }
-.container-1,.container-2, .container-3{
+.container-2, .container-3{
     margin:7% auto;
     width:90%;
     text-align: center;
 }
-.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-container-2-button, .flex-box-rps-button{
+ .flex-box-container-2, .flex-box-rps, .flex-box-container-2-button, .flex-box-rps-button{
     display: flex;
     padding: 3vmin;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@ h2{
     justify-content: space-around;
 
 }
-.flex-box-container-1 button,.flex-box-container-2-button button,.flex-box-rps-button button{
+.flex-box-container-2-button button,.flex-box-rps-button button{
     width: 30vmin;
     height: 8vmin;
     font-size: 2vmin;
