@@ -16,14 +16,23 @@ h2{
     width:90%;
     text-align: center;
 }
-.container-4 .flex-blackjack-row1{
-    font-size: 4vmin;
+.container-4 .flex-blackjack-row1,.container-4 .flex-blackjack-row3{
+    font-size: 3vmin;
     text-transform: uppercase;
     /* font-weight: bold; */
     letter-spacing: 0.5vmin;
     color: #fff;
 }
- .flex-box-container-2, .flex-box-rps, .flex-box-container-2-button, .flex-box-rps-button,.flex-blackjack-buttons{
+.flex-blackjack-row1 div{
+    flex:1;
+    margin: 1vmin;
+    height:350px; 
+}
+.flex-blackjack-row1 img{
+    width:25%;
+    padding:1vmin;
+}
+ .flex-box-container-2,.flex-blackjack-row3,.flex-blackjack-row1, .flex-box-rps, .flex-box-container-2-button, .flex-box-rps-button,.flex-blackjack-buttons{
     display: flex;
     padding: 3vmin;
     flex-wrap: wrap;
