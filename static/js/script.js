@@ -145,3 +145,22 @@ function resetRPS(){
         }
     );
 }
+let blackJackGame = {
+    'you':{'scoreSpan':'#your-blackjack-result','div':'#your-box','score':0},
+    'dealer':{'scoreSpan':'#dealer-blackjack-result','div':'#dealer-box','score':0},
+};
+const YOU = blackJackGame['you'];
+const DEALER = blackJackGame['dealer'];
+const hitSound = new Audio('static/sounds/swish.m4a')
+document.querySelector('#blackjack-hit').addEventListener('click',()=>{
+    showCard(YOU);
+});
+function showCard(player){
+    let cardImage = document.createElement('img');
+    cardImage.src = 'static/images/QC.png';
+    document.querySelector(player['div']).appendChild(cardImage);
+    hitSound.play();
+}
+function blackJackDeal(){
+    let yourImages = document.querySelector('#your-box').querySelectorAll('img')
+}

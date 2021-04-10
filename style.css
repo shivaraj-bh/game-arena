@@ -23,16 +23,27 @@ h2{
     letter-spacing: 0.5vmin;
     color: #fff;
 }
+.flex-blackjack-row1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .flex-blackjack-row1 div{
     flex:1;
-    margin: 1vmin;
-    height:350px; 
+    /* margin: 10px; */
+    height:550px; 
 }
+
 .flex-blackjack-row1 img{
-    width:25%;
-    padding:1vmin;
+    width:20vmin;
+    height:auto;
+    margin:3vmin;
+    border-radius: 4vmin;
+    box-shadow: 1.5vmin 0.2vmin 4vmin blueviolet;
 }
- .flex-box-container-2,.flex-blackjack-row3,.flex-blackjack-row1, .flex-box-rps, .flex-box-container-2-button, .flex-box-rps-button,.flex-blackjack-buttons{
+
+
+ .flex-box-container-2,.flex-blackjack-row3, .flex-box-rps, .flex-box-container-2-button, .flex-box-rps-button,.flex-blackjack-buttons{
     display: flex;
     padding: 3vmin;
     flex-wrap: wrap;
@@ -240,4 +251,22 @@ h2{
       color: #146C80;
     }
   }
+  .flex-blackjack-row3 table{
+    margin-top: 1vmin;
+    padding:0px;
+    font-size: 1vmin;
+    text-align: center;
+    border:0.1vmin solid white;
+  }
+  .flex-blackjack-row3 td{
+    padding: 1.5vmin;  
+    font-size:2.5vmin;
+    margin:0px;
+    text-align: center;
+    border:0.1vmin solid white;
+  }
+  tr{
+    padding: 0px;
+  }
+  
   
