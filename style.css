@@ -69,16 +69,22 @@ h2{
 }
 .flex-box-container-2{
     padding: 0px;
-    justify-content:space-around;
+    justify-content:center;
     align-items: baseline;
 }
 .flex-box-container-2 img{
     height: 40vmin;
     width: 60vmin;
-    box-shadow: 1vmin .8vmin 2vmin rgba(88, 117, 248, 0.438);
-    margin: 4vmin;
+    margin: 1vmin;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
-
+.flex-box-container-2 img:hover{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
 
 .center{
     display: inherit;
